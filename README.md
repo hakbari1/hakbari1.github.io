@@ -11,7 +11,7 @@ this repository will be holding my ~~masterpeices~~ ~~messes~~ i meant homeworks
 
 
 # Academic integrity
-## academic integrity is something that should be important for everyone including professors and students, there are amny reasons for that, but some are as follow:
+## academic integrity is something that should be important for everyone including professors and students, there are many reasons for that, but some are as follow:
 
 - the only reason that everyone should be attending college or school is to learn something, you can do the copy paste anytime you want from google.
 - it makes every students to present thier own works without copy pasting that will make the students be innovative and productive.
