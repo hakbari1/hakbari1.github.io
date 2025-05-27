@@ -11,23 +11,23 @@ PRODUCT {
    }
 CUSTOMER {
     name
-    last name
+    last_name
     sex
-    phone number
+    phone_number
     adress
 }
 SALES {
-    sale number
-    sale date
-    cash sales
-    card sales
+    sale_number
+    sale_date
+    cash_sales
+    card_sales
 }
 INVENTORY {
-    product category
-    how many in stock
-    location of the product
+    product_category
+    how_many_in_stock
+    location
 }
-CUSTOMER ||---o{PRODUCT : orders }
-SALES ||---O{ INVENTORY : includes}
-PRODUCT ||---O{ INVENTORY : come from}
+CUSTOMER ||--o{PRODUCT : orders }
+SALES ||--O{ INVENTORY : includes}
+PRODUCT ||--O{ INVENTORY : come_from}
 ```
