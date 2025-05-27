@@ -2,32 +2,41 @@
 
 ```mermaid
 erDiagram
-PRODUCT { 
-   name
-   category
-   size
-   color
-   price
-   }
+PRODUCT {
+   int product_id PK
+   string name
+   string category
+   string size
+   string color
+   decimal price
+}
+
 CUSTOMER {
-    name
-    last_name
-    sex
-    phone_number
-    adress
+    int customer_id PK
+    string first_name
+    string last_name
+    string gender
+    string phone_number
+    string address
 }
+
 SALES {
-    sale_number
-    sale_date
-    cash_sales
-    card_sales
+    int sale_id PK
+    date sale_date
+    decimal cash_amount
+    decimal card_amount
+    int customer_id
 }
+
 INVENTORY {
-    product_category
-    how_many_in_stock
-    location
+    int inventory_id PK
+    int product_id
+    int quantity_in_stock
+    string location
 }
-CUSTOMER ||--o{PRODUCT : orders }
-SALES ||--O{ INVENTORY : includes}
-PRODUCT ||--O{ INVENTORY : come_from}
+
+CUSTOMER ||--o{ SALES : place } 
+SALES ||--o{ PRODUCT : includes }
+PRODUCT ||--o{ INVENTORY : stocked_as }
+
 ```
