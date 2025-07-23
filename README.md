@@ -1,9 +1,10 @@
 # hakbari1.github.io
-Hello to everyone including our beloved teacher **Mr.steffes**, who i am sure is reading this.Hope you all doing good.
+Hello everyone!
+Hope you all doing good,
 
 - This is ***Homauon Akbari*** 
--My email adress is *Hakbari1@my.waketech.edu*
--This repository will be holding my ~~masterpeices~~ ~~messes~~ i meant homeworks during this class.
+-My email adress is *hakbari1@my.waketech.edu*
+-This repository will be holding my homeworks during this class.
 
 
 # my introduction
